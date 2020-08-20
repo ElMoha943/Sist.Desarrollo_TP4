@@ -1,4 +1,4 @@
-#Trabajo Práctico Display LCD
+# Trabajo Práctico Display LCD
 
 Objetivo: Poner en práctica los conocimientos adquiridos en cuanto al control y configuración de un display LCD de caracteres y generar una librería de utilidad para futuros proyectos.
 
@@ -6,7 +6,7 @@ El objetivo de hacer una librería consiste en resolver el acceso al display des
 
 Más adelante, si un proyecto requiere el uso de un display LCD, podremos acudir a nuestra librería y utilizarla en cualquier aplicación, sin necesidad de resolver nuevamente las cuestiones estrictamente ligadas al control del display.
 
-#Librería LCD.
+## Librería LCD.
 La misma de contar con al menos 3 funciones, a saber:
 
 void InicializarDisplay(void)
@@ -21,7 +21,7 @@ void BorrarDisplay(void)
 
 Esta función borra el display y devuelve el cursor a la posición inicial.
 
-#Programa principal (main)
+## Programa principal (main)
 
 A los fines de testear esta libería y presentar el trabajo práctico, se deberá hacer un programa principal que muestre dos textos en forma alternada. Cada uno de los textos deberá permanecer visible por 5 segundos.
 
