@@ -65,6 +65,7 @@ void main(void) {
                 }
             }
         }
+		BorrarDisplay();
         if(mode==1){ //LETRERO
             Mostrar(cosa,0,1);
             Mostrar(cosa2,0,2);
