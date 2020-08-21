@@ -5,6 +5,8 @@ void InicializarDisplay(void);
 void Mostrar(char *str, unsigned char pos, unsigned char linea);
 void BorrarDisplay(void);
 
+#define _XTAL_FREQ 4000000
+
 #define D0 PORTBbits.RB7
 #define D1 PORTBbits.RB6
 #define D2 PORTBbits.RB5
