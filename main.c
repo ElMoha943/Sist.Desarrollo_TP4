@@ -35,13 +35,14 @@ void main(void) {
     TRISB=0;
     TRISC=0x03;
     ANSEL=0;
-    OPTION_REG=0x02;
-    InicializarDisplay();
+    OPTION_REG=0x04;
+    InicializarDisplay();	
+    __delay_ms(1000);
     while(1){
         //Timer Setup.
         if(T0IF==1)
         {
-            TMR0=TMR0+254;
+            TMR0=TMR0+131;
             T0IF=0;
             contador++;
             if (contador==250){
